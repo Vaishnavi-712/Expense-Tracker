@@ -287,8 +287,10 @@ input[type=number] {
 }
 
 .budget-dashboard #expense .input .add-expense img{
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -358,7 +360,7 @@ input[type=number] {
     display: block;
     width: 700px;
     bottom: 0;
-    border-top: 1px solid #ccc;
+    border-top: 5px solid #AFD3E2;
 }
 
 .budget-dashboard #income .input *{
@@ -394,9 +396,11 @@ input[type=number] {
 }
 
 .budget-dashboard #income .input .add-income img{
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .budget-dashboard #income ul{
