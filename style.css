@@ -70,14 +70,14 @@ input[type=number] {
 }
 
 .budget-header .balance .title{
-    color: #FFF;
-    font-size: 1em;
+    color: #FFD0D0;
+    font-size: 3em;
     font-family: 'Gilroy Bold';
 }
 
 .budget-header .balance .value{
-    color: #FFF;
-    font-size: 2em;
+    color: #FF9EAA;
+    font-size: 4em;
     margin-top: 10px;
     font-family: 'Gilroy Bold';
 }
@@ -85,8 +85,8 @@ input[type=number] {
 .budget-header .account{
     display: block;
     width: 310px;
-    margin: 35px auto 0;
-    line-height: 1.7em;
+    margin: 60px auto 0;
+    line-height: 2em;
     text-align: center;
     
 }
@@ -94,7 +94,7 @@ input[type=number] {
 .budget-header .account .income, .chart, .outcome{
     height: 50px;
     display: inline-block;
-    width: 100px;
+    width: 300px;
     vertical-align: middle;
 }
 
