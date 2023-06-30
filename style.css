@@ -40,12 +40,12 @@ input[type=number] {
 
 .budget-container{
     position: absolute;
-    width: 360px;
-    height: 780px;
+    width: 750px;
+    height: 750px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #34006a;
+    background-color: #3AA6B9;
 }
 
 .budget-container .app-title{
