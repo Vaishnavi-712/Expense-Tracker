@@ -42,19 +42,20 @@ input[type=number] {
     position: absolute;
     width: 750px;
     height: 700px;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 20%;
     transform: translateX(-50%) translateY(-50%);
     background-color: #3AA6B9;
 }
 
 .budget-container .app-title{
-    margin-top: 45px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
 }
 
 .budget-container .app-title b{
-    color: #FF9EAA;
+    color: #FFF;
 }
 .budget-container .app-title b{
     font-family: 'Gilroy Bold';
@@ -71,13 +72,13 @@ input[type=number] {
 
 .budget-header .balance .title{
     color: #FFD0D0;
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: 'Gilroy Bold';
 }
 
 .budget-header .balance .value{
     color: #FF9EAA;
-    font-size: 4em;
+    font-size: 2.5em;
     margin-top: 10px;
     font-family: 'Gilroy Bold';
 }
@@ -94,7 +95,7 @@ input[type=number] {
 .budget-header .account .income, .chart, .outcome{
     height: 50px;
     display: inline-block;
-    width: 300px;
+    width: 100px;
     vertical-align: middle;
 }
 
@@ -119,8 +120,8 @@ input[type=number] {
 /*/////////////   DASHBOARD    /////////////*/
 .budget-dashboard{
     display: block;
-    width: 360px;
-    height: 470px;
+    width: 700px;
+    height: 700px;
     background-color: #FFF;
     margin-top: 35px;
     border-radius: 30px 30px 0 0;
