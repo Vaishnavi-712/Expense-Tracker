@@ -53,15 +53,15 @@ input[type=number] {
     margin-left: 20px;
 }
 
-.budget-container .app-title a{
-    color: #FFF;
+.budget-container .app-title b{
+    color: #FF9EAA;
 }
-.budget-container .app-title a b{
+.budget-container .app-title b{
     font-family: 'Gilroy Bold';
 }
 
 .budget-header{
-
+    
 }
 
 .budget-header .balance{
