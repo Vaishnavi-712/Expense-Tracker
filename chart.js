@@ -5,8 +5,8 @@ const chart = document.querySelector(".chart");
 
 // CREATE CANVAS ELEMMENT
 const canvas = document.createElement("canvas");
-canvas.width = 50;
-canvas.height = 50;
+canvas.width = 100;
+canvas.height = 100;
 
 // APPEND CANVAS TO CHART ELEMENT
 chart.appendChild(canvas);
@@ -15,7 +15,7 @@ chart.appendChild(canvas);
 const ctx = canvas.getContext("2d");
 
 // CHANGE THE LINE WIDTH
-ctx.lineWidth = 8;
+ctx.lineWidth = 40;
 
 // CIRCLE RADIUS
 const R = 20;
@@ -33,6 +33,6 @@ function updateChart( income, outcome){
 
     let ratio = income / (income+outcome);
 
-    drawCircle("#FFFFFF", - ratio, true);
-    drawCircle("#F0624D", 1 - ratio, false);
+    drawCircle("#45CFDD", - ratio, true);
+    drawCircle("rgb(219, 44, 44)", 1 - ratio, false);
 }
