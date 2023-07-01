@@ -62,7 +62,14 @@ input[type=number] {
 .budget-header{
 
 }
+.budget-container .addi2{
+    color: #F6F1F1;
+    margin-left: 190px;
+    padding-top:5px;
+    font-size:0.8em;
+    opacity: 0.5;
 
+}
 .budget-header .balance{
     margin-top: 30px;
     margin-left: 30px;
